@@ -134,7 +134,7 @@ body {
   
   .sobre_titulo::after {
     content: "";
-    /* background-image: url("./img/detalhes/detalhe_duplo.png"); */
+    background-image: url("./img/detalhes/detalhe_duplo.png");
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -170,7 +170,7 @@ body {
   .titulo_grande {
     max-width: 500px;
     word-wrap: break-word;
-    font-size: 110px;
+    font-size: 80px;
     line-height: 1.5;
     
   }
@@ -313,7 +313,7 @@ body {
   }
   .footer_curso {
     font-size: 20px;
-    color: wheat;
+    color: rgba(179, 245, 240, 0.989);
   }
   .footer_autor {
     font-size: 16px;
