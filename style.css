@@ -132,7 +132,7 @@ body {
     position: relative;
   }
   
-  .sobre_titulo::after {
+  /* .sobre_titulo::after {
     content: "";
     background-image: url("./img/detalhes/detalhe_duplo.png");
     background-position: center;
@@ -143,7 +143,7 @@ body {
     height: 130px;
     width: 130px;
     z-index: -1;
-  }
+  } */
   .sobre_infos p {
     font-size: 28px;
     line-height: 1.5;
