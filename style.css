@@ -345,7 +345,10 @@ body {
       gap: 80px;
     }
     .perfil img {
-      max-width: 250px;      
+      max-width: 250px; 
+      border: 5px solid rgba(30, 30, 190, 0.367);
+      box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+
     }
     
     .perfil_nome {
