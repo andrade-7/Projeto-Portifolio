@@ -12,14 +12,14 @@ body {
     padding: 0px;
     margin: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #2e009f;
     border-radius: 5px;
   }
   
   .logo {
-    max-width: 100px;
+    max-width: 80px;
     cursor: pointer;
     padding-left: 15px;
     
@@ -42,6 +42,11 @@ body {
     background-color: #6f32d9;
     color: white;
   }
+
+  .curriculo_mobile{
+    display: none;
+  }
+
   .menu {
     display: flex;
     justify-content: center;
@@ -169,6 +174,10 @@ body {
     font-size: 80px;
     line-height: 1.5;
     
+  }
+
+  .titulo_grande_mobile{
+    display: none;
   }
   .grade_cursos {
     display: flex;
@@ -346,6 +355,21 @@ body {
   display: none;
  }
 
+ .curriculo_2 {
+  background-color: whitesmoke;
+  padding: 5px 15px;
+  font-size: 24px;
+  font-family: "Roboto";    
+  color: #2e009f;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-right: 15px;
+}
+.curriculo_2:hover {
+  background-color: #6f32d9;
+  color: white;
+}
+
  .curso_titulo::before{
   display: none;
  }
@@ -393,6 +417,10 @@ body {
   box-shadow: white;
  
 }
+.card_titulo{
+  font-size: 22px;
+  padding-top: 20px;
+}
 
 
 .card_projeto {
@@ -403,4 +431,6 @@ body {
   padding-left: 20px;
   font-size: 20px;
 }
+
+
 }
