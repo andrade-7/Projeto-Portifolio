@@ -407,6 +407,7 @@ body {
 .titulo_grande_mobile{
   font-size: 50px;
   font-weight: bold;
+  display: block;
 }
 
 .curso_texto {
