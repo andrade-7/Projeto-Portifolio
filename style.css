@@ -186,6 +186,10 @@ body {
     flex-direction: column;
     gap: 20px;
   }
+
+  .grade_cursos a{
+    text-decoration: none;
+  }
   .curso {
     max-width: 600px;
     background-color: rgba(0, 0, 0, 0.6);
@@ -272,6 +276,10 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 40px;
     border-radius: 40px;
+  }
+
+  .card_projeto a{
+    text-decoration: none;
   }
   
   .card_projeto img {
