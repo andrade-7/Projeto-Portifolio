@@ -318,20 +318,21 @@ body {
   }
   
   .footer_copy {
-    font-size: 24px;
+    font-size: 15px;
   }
   .footer_curso {
-    font-size: 20px;
+    font-size: 15px;
     color: rgba(179, 245, 240, 0.989);
   }
   .footer_autor {
-    font-size: 16px;
-    color: #5a22c6;
+    font-size: 15px;
+    color: #beabe2;
     font-style: italic;
   }
 
   .footer_curso a{
     text-decoration: none;
+    color: #8043e9;
   }
   
 
