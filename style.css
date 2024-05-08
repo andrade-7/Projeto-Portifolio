@@ -28,15 +28,9 @@ body {
     transform: scale(1.2);
   }
 
-  .curriculo_2{
+  .curriculo_m{
     display: none;
   }
-  
-  .curriculo_2{
-    display: none;
-  }
-
-  
   .curriculo {
     background-color: whitesmoke;
     padding: 5px 15px;
@@ -52,7 +46,7 @@ body {
     color: white;
   }
 
-  
+ 
   .menu {
     display: flex;
     justify-content: center;
@@ -357,9 +351,13 @@ body {
   .principal{
     margin-bottom: 20px;
   }
- .curriculo{
-  display: none;
+ .curriculo_m{
+  display: flex;
  }
+
+  .curriculo{
+    display: none;
+  }
 
  .curriculo_m{
   background-color: whitesmoke;
@@ -434,7 +432,7 @@ body {
 }
 
 .footer_copy{
-  padding-left: 20px;
+  padding-left: 2px;
   font-size: 20px;
 }
 
